@@ -4,7 +4,7 @@ const results = {};
   for (const letter of Array.from(str)) {
   
     let i = 0;
-    //if the letter is already present 
+    //if the letter is already present
     //get the current count and then add 1
     if (results[letter]) {
       results[letter] = results[letter] + 1;
@@ -21,5 +21,5 @@ const results = {};
 
 
 
-console.log(countLetters('bob the'))
+console.log(countLetters('LHL'))
 

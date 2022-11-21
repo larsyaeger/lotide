@@ -1,12 +1,5 @@
-//copy and pasted function from assertEqual.js
+const assertEqual = require('./assertEqual');
 
-function assertEqual(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-}
 
 function head(x) {
   if (x[0]) {
@@ -16,5 +9,5 @@ function head(x) {
   }
 }
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = head;
+//test cases are in headTest.js
