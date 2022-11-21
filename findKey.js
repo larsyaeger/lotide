@@ -22,8 +22,9 @@ const results = findKey({
   "elBulli": { stars: 3 },
   "Ora": { stars: 2 },
   "Akelarre": { stars: 3 }
-}, x => x.stars === 3) // => "noma"
-console.log(results);
+}, x => x.stars === 3); // => "noma"
+//console.log(results);
+module.exports = findKey;
 
 
 //IGNORE THIS CRAP IM LEAVING IT HERE BECAUSE IT SHOWS MY THOUGHT PROCESS

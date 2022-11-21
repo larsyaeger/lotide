@@ -21,7 +21,8 @@ function letterPositions (sentence) {
   return results;
 }
 
-const result = letterPositions('beeepooooopppppboobddiiiiiiyyttyyyy');
-console.log(result);
+module.exports = letterPositions
+// const result = letterPositions('beeepooooopppppboobddiiiiiiyyttyyyy');
+// console.log(result);
 
 //aabc

@@ -8,12 +8,12 @@ const map = function (array, callback) {
   return results;
 }
 
+module.exports = map;
 
 
 
 
 
 
-
-const results1 = map(words, word => word[0]);
-console.log(results1);
+// const results1 = map(words, word => word[0]);
+// console.log(results1);
